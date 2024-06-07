@@ -100,6 +100,11 @@
     strong {
         font-weight: 600;
         color: theme('colors.text.bold');
+        text-decoration: underline;
+        text-decoration-thickness: 0.1em;
+        text-underline-offset: 0.25em;
+        text-decoration-color: theme('colors.text.link');
+        text-decoration-skip-ink: auto;
     }
 
     mark {
