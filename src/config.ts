@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "Jacob Crabtree";
 export const SITE_DESCRIPTION =
-  "Welcome to my blog! I write about modern web development.";
+  "Welcome! This is my personal blog where I write about technology, mathematics, and other things that I find interesting.";
 export const TWITTER_HANDLE = "@crabtr26";
 export const MY_NAME = "Jacob Crabtree";
 
