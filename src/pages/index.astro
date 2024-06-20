@@ -2,6 +2,7 @@
 import PageMeta from "../components/PageMeta.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
+import Outro from "../components/Outro.astro";
 import HighlightedContent from "../components/HighlightedContent.astro";
 import { SITE_TITLE } from "../config";
 ---
@@ -12,5 +13,6 @@ import { SITE_TITLE } from "../config";
   <Fragment slot="main">
     <Intro />
     <HighlightedContent />
+    <Outro />
   </Fragment>
 </PageLayout>
