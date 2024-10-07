@@ -1,8 +1,8 @@
-import {defineConfig} from '@junobuild/config';
+import { defineConfig } from "@junobuild/config";
 
 export default defineConfig({
   satellite: {
-    id: 'ojmfj-uyaaa-aaaal-ajcma-cai',
-    source: 'dist'
-  }
+    id: "ojmfj-uyaaa-aaaal-ajcma-cai",
+    source: "dist",
+  },
 });

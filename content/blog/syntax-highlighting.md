@@ -13,7 +13,7 @@ Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism) w
 An example `HTML` code block.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
