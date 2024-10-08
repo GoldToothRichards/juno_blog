@@ -209,3 +209,7 @@
 .fa-envelope::before {
   content: "\f0e0";
 }
+
+.fa-calendar-check::before {
+  content: "\f274";
+}
