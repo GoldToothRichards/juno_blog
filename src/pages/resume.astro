@@ -1,4 +1,8 @@
 ---
 const resumeUrl = "/documents/Jacob_Crabtree_Resume.pdf";
-return Astro.redirect(resumeUrl, 302);
 ---
+
+<meta http-equiv="refresh" content={`0;url=${resumeUrl}`}>
+<script>
+  window.location.href = "{resumeUrl}";
+</script>
