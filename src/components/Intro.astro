@@ -1,14 +1,17 @@
 ---
-
+import { Image } from 'astro:assets';
+import headshot from '@/assets/images/headshot.avif';
 ---
 
 <section class="mb-8 mt-4">
   <div class="mb-6">
     <div class="mb-4 flex items-center justify-center">
-      <img
-        src="/images/headshot.avif"
+      <Image
+        src={headshot}
         alt="Jacob Crabtree Headshot"
         class="w-24 h-24 md:w-28 md:h-28 rounded-full mr-1 sm:mr-4"
+        width={112}
+        height={112}
       />
       <h1
         class="font-bold uppercase text-center text-4xl md:text-5xl tracking-tighter py-6 overflow-hidden"

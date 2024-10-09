@@ -1,5 +1,6 @@
 ---
-
+import { Image } from "astro:assets";
+import platonic_solids from "@/assets/images/platonic_solids.webp";
 ---
 
 <div class="mb-8">
@@ -62,10 +63,11 @@
         <strong class="hover:text-text-link">Platonic Solids:</strong>
       </a>
       Some renderings that I created using blender.
-      <img
-        class="mt-2"
-        src="/images/platonic_solids.webp"
+
+      <Image
+        src={platonic_solids}
         alt="Platonic Solids Rendering"
+        class="mt-2"
       />
     </li>
     <li>
