@@ -11,23 +11,27 @@ export default defineConfig({
           headers: [["Cache-Control", "public,max-age=0,must-revalidate"]]
         },
         {
-          source: "/fonts/**/*",
+          source: "fonts/*",
           headers: [["Cache-Control", "max-age=31536000"]]
         },
         {
-          source: "/fontawesome/**/*",
+          source: "fontawesome/**/*",
           headers: [["Cache-Control", "max-age=31536000"]]
         },
         {
-          source: "/**/*.{jpg,jpeg,png,gif,webp,svg,ico}",
+          source: "images/*",
           headers: [["Cache-Control", "max-age=31536000"]]
         },
         {
-          source: "/**/*.{woff,woff2,ttf,otf}",
+          source: "**/*.{jpg,jpeg,png,gif,webp,svg,ico}",
           headers: [["Cache-Control", "max-age=31536000"]]
         },
         {
-          source: "/documents/**/*",
+          source: "**/*.{woff,woff2,ttf,otf}",
+          headers: [["Cache-Control", "max-age=31536000"]]
+        },
+        {
+          source: "documents/*",
           headers: [["Cache-Control", "max-age=0,must-revalidate"]]
         }
       ]

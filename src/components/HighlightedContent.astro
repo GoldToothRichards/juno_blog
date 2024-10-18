@@ -1,6 +1,4 @@
 ---
-import { Image } from "astro:assets";
-import platonic_solids from "@/assets/images/platonic_solids.webp";
 ---
 
 <div class="mb-8">
@@ -63,11 +61,27 @@ import platonic_solids from "@/assets/images/platonic_solids.webp";
         <strong class="hover:text-text-link">Platonic Solids:</strong>
       </a>
       Some renderings that I created using blender.
-
-      <Image
-        src={platonic_solids}
+      <img
+        src="/images/platonic_solids_sm.webp"
+        srcset="
+          /images/platonic_solids_sm.webp 640w,
+          /images/platonic_solids_md.webp 768w,
+          /images/platonic_solids_lg.webp 1024w,
+          /images/platonic_solids_xl.webp 1280w,
+          /images/platonic_solids_2xl.webp 1536w,
+          /images/platonic_solids_original.webp 3440w
+        "
+        sizes="(max-width: 640px) 640px,
+               (max-width: 768px) 768px,
+               (max-width: 1024px) 1024px,
+               (max-width: 1280px) 1280px,
+               (max-width: 1536px) 1536px,
+               3440px"
         alt="Platonic Solids Rendering"
-        class="mt-2"
+        class="mt-2 w-full h-auto"
+        width="3440"
+        height="1440"
+        loading="lazy"
       />
     </li>
     <li>
