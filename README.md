@@ -6,15 +6,6 @@ Welcome to my personal space on the web! Here you'll find my latest programming 
 
 Come check it out! ~ [https://jacobcrabtree.me/](https://jacobcrabtree.me/)
 
-## 📬 Contact
-
-Feel free to reach out to me about anything here that you find interesting:
-
-- 📧 Email: [crabtr26@proton.me](mailto:crabtr26@proton.me)
-- 📆 Calendly: [crabtr26](https://calendly.com/crabtr26)
-- 💼 LinkedIn: [Jacob Crabtree](https://www.linkedin.com/in/jacob-crabtree-7ab72610a/)
-- 🐦 Twitter: [@crabtr26](https://x.com/crabtr26)
-
 ## 🙏 Acknowledgements
 
 - [Juno](https://juno.build) for providing the hosting and development platform
